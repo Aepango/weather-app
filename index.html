@@ -26,7 +26,7 @@
                 <input type="text" class="form-control" aria-label="Sizing example input"
                     aria-describedby="inputGroup-sizing-default" id="search-input">
             </div>
-            <button type="button" class="btn btn-primary" id= "searchBtn">Search</button>
+            <button type="button" class="btn btn-primary" id="searchBtn">Search</button>
             <div id="recent-searches">
                 <span id="location" class="location text-center"></span>
             </div>
@@ -36,83 +36,93 @@
             <div class="row">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row row-cols-5 g-4">
-                <div class="col">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural
-                                lead-in to additional content. This content is a little bit longer.</p>
+                        <h5 class="card-title"></h5>
+                        <p class="card-text"></p>
+                        <div class="row">
+                            <div class="col-12">
+                                <p id="temperature"></p>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural
-                                lead-in to additional content. This content is a little bit longer.</p>
+                        <div class="row">
+                            <div class="col-12">
+                                <p id="humidity"></p>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural
-                                lead-in to additional content.</p>
+                        <div class="row">
+                            <div class="col-12">
+                                <p id="pop"></p>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural
-                                lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural
-                                lead-in to additional content. This content is a little bit longer.</p>
+                        <div class="row">
+                            <div class="col-12 d-flex">
+                                <p id="clouds"></p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col-12">
-            <p id="temperature"></p>
+    <div class="row row-cols-5 g-4">
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Cherry Hill</h5>
+                    <p class="card-text"> Current Temperature: 38F</p>
+                    <p class="card-text"> Current humidity: 70%</p>
+                    <p class="card-text"> Wind Speed 10MPH</p>
+                    <p class="card-text"> UV Index: 2</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Haddonfield</h5>
+                    <p class="card-text"> Current Temperature: 38F</p>
+                    <p class="card-text"> Current humidity: 70%</p>
+                    <p class="card-text"> Wind Speed 10MPH</p>
+                    <p class="card-text"> UV Index: 2</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Bordentown</h5>
+                    <p class="card-text"> Current Temperature: 38F</p>
+                    <p class="card-text"> Current humidity: 70%</p>
+                    <p class="card-text"> Wind Speed 10MPH</p>
+                    <p class="card-text"> UV Index: 2</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Alantic City</h5>
+                    <p class="card-text"> Current Temperature: 20F</p>
+                    <p class="card-text"> Current humidity: 50%</p>
+                    <p class="card-text"> Wind Speed 15MPH</p>
+                    <p class="card-text"> UV Index: 1</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Mount Holly</h5>
+                    <p class="card-text"> Current Temperature: 38F</p>
+                    <p class="card-text"> Current humidity: 70%</p>
+                    <p class="card-text"> Wind Speed 10MPH</p>
+                    <p class="card-text"> UV Index: 2</p>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col-12">
-            <p id="humidity"></p>
-        </div>
     </div>
-    <div class="row">
-        <div class="col-12">
-            <p id="pop"></p>
-        </div>
     </div>
-    <div class="row">
-        <div class="col-12 d-flex">
-            <p id="clouds"></p>
-        </div>
-    </div>
-</div>
-</div>
+
 </body>
 <script src="server.js"></script>
 
